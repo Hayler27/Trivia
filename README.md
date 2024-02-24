@@ -30,3 +30,27 @@ El proyecto está organizado de la siguiente manera:
 
 - React Native
 - React Navigation
+
+## Pruebas
+
+Se han incorporado pruebas automatizadas para garantizar el correcto funcionamiento de la aplicación. 
+
+### Ejecutar pruebas
+
+Para ejecutar las pruebas, sigue estos pasos:
+
+1. Abre una terminal en el directorio del proyecto.
+2. Ejecuta `npm test` para ejecutar todas las pruebas.
+
+### Pruebas en entorno web
+
+También puedes probar la aplicación en un entorno web utilizando el siguiente comando:
+
+1. expo start --web
+
+## Configuraciones para pruebas
+
+Se realizaron las siguientes configuraciones para agregar las pruebas:
+
+- Se utilizaron las bibliotecas Jest y React Testing Library para escribir y ejecutar pruebas.
+- Se crearon pruebas para cada componente de la aplicación para verificar su funcionalidad y renderizado adecuado.
